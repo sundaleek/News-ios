@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* AppDelegate.swift */; };
+		A00000000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* SceneDelegate.swift */; };
+		A00000000000000000000003 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* NewsItem.swift */; };
+		A00000000000000000000004 /* NewsAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* NewsAPIClient.swift */; };
+		A00000000000000000000005 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* ImageLoader.swift */; };
+		A00000000000000000000006 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* NewsViewModel.swift */; };
+		A00000000000000000000007 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* NewsCell.swift */; };
+		A00000000000000000000008 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* NewsViewController.swift */; };
+		A00000000000000000000009 /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* NewsDetailViewController.swift */; };
+		A00000000000000000000010 /* NewsFeedStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* NewsFeedStatusView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000000 /* AutoDocNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoDocNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* NewsAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIClient.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		B00000000000000000000009 /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		B00000000000000000000010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000011 /* NewsFeedStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedStatusView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000000 = {isa = PBXGroup; children = (D00000000000000000000001, D00000000000000000000002, D00000000000000000000003, D00000000000000000000004, D00000000000000000000005, D00000000000000000000006, D00000000000000000000007, D00000000000000000000008, D00000000000000000000009, D00000000000000000000010); sourceTree = "<group>"; };
+		D00000000000000000000001 = {isa = PBXGroup; children = (B00000000000000000000001, B00000000000000000000002, B00000000000000000000010); name = App; path = AutoDocNews; sourceTree = "<group>"; };
+		D00000000000000000000002 = {isa = PBXGroup; children = (B00000000000000000000003); name = Models; path = AutoDocNews/Models; sourceTree = "<group>"; };
+		D00000000000000000000003 = {isa = PBXGroup; children = (B00000000000000000000004, B00000000000000000000005); name = Networking; path = AutoDocNews/Networking; sourceTree = "<group>"; };
+		D00000000000000000000004 = {isa = PBXGroup; children = (B00000000000000000000006, B00000000000000000000007, B00000000000000000000008, B00000000000000000000011); name = NewsFeed; path = AutoDocNews/Features/NewsFeed; sourceTree = "<group>"; };
+		D00000000000000000000005 = {isa = PBXGroup; children = (B00000000000000000000009); name = NewsDetail; path = AutoDocNews/Features/NewsDetail; sourceTree = "<group>"; };
+		D00000000000000000000006 = {isa = PBXGroup; children = (); name = Products; sourceTree = "<group>"; };
+		D00000000000000000000007 = {isa = PBXGroup; children = (); name = Supporting; sourceTree = "<group>"; };
+		D00000000000000000000008 = {isa = PBXGroup; children = (); name = Resources; sourceTree = "<group>"; };
+		D00000000000000000000009 = {isa = PBXGroup; children = (); name = Features; sourceTree = "<group>"; };
+		D00000000000000000000010 = {isa = PBXGroup; children = (); name = AutoDocNews; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* AutoDocNews */ = {isa = PBXNativeTarget; buildConfigurationList = F00000000000000000000004; buildPhases = (C00000000000000000000002, C00000000000000000000001, C00000000000000000000003); buildRules = (); dependencies = (); name = AutoDocNews; productName = AutoDocNews; productReference = B00000000000000000000000; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000000 /* Project object */ = {isa = PBXProject; attributes = {LastUpgradeCheck = 1600; ORGANIZATIONNAME = AutoDoc; TargetAttributes = {E00000000000000000000001 = {CreatedOnToolsVersion = 16.0;};};}; buildConfigurationList = F00000000000000000000003; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = D00000000000000000000000; productRefGroup = D00000000000000000000006; projectDirPath = ""; projectRoot = ""; targets = (E00000000000000000000001); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000001, A00000000000000000000002, A00000000000000000000003, A00000000000000000000004, A00000000000000000000005, A00000000000000000000006, A00000000000000000000007, A00000000000000000000008, A00000000000000000000009, A00000000000000000000010); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000001 /* Project */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; SDKROOT = iphoneos; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		F00000000000000000000002 /* Target */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CURRENT_PROJECT_VERSION = 1; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = AutoDocNews/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 15.0; PRODUCT_BUNDLE_IDENTIFIER = com.autodoc.news; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SUPPORTS_MACCATALYST = NO; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000003 /* Build configuration list for PBXProject */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000001); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+		F00000000000000000000004 /* Build configuration list for PBXNativeTarget */ = {isa = XCConfigurationList; buildConfigurations = (F00000000000000000000002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Debug; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000000;
+}
